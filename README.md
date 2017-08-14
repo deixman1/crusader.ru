@@ -1,3 +1,3 @@
 # crusader.ru
 
-About ur mother
+About your mother
