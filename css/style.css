@@ -1,30 +1,78 @@
 @font-face {
-    font-family: Futuralight;
-    src: url(../fonts/Futura Light Regular.ttf);
+    font-family: FuturaLightC;
+    src: url(../fonts/futuralightc.otf);
 }
 *{
-	font-family: Futuralight;
+	font-family: FuturaLightC;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+}
+.bg{
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+}
+#bg-header-first{
+}
+#bg-header-second{
+	top: 60px;
+}
+#bg-header-third{
+	background: url('../img/bg-main.jpg');
+	z-index: -2;
+}
+#bg-content-first{
+	background: #2d2d2d;
+}
+body{
+	position: relative;
 }
 a{
 	text-transform: none;
 	text-decoration: none;
 }
+#third{
+	height: 100%;
+}
+#wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
 #header{
 	display: flex;
 	flex-direction: column;
-	background: url('../img/bg-main.jpg');
 }
 .row{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
+.row.middle > div{
+	padding: 6px;
+}
 .column{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+#purchase{
+	border: solid 2px #00deff;
+	color: #00deff;
+	font-weight: bold;
+	font-size: 18px;
+}
+#purchase>span{
+	padding: 6px;
+}
+.middle{
+	align-items: center;
+}
+.center{
+	justify-content: center;
+}
+.flex-start{
+	align-items: flex-end;
 }
 .textBlue{
 	color: #00deff;
