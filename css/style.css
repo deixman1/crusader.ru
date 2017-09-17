@@ -1,1 +1,42 @@
-
+@font-face {
+    font-family: Futuralight;
+    src: url(../fonts/Futura Light Regular.ttf);
+}
+*{
+	font-family: Futuralight;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-transform: none;
+	text-decoration: none;
+}
+#header{
+	display: flex;
+	flex-direction: column;
+	background: url('../img/bg-main.jpg');
+}
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.column{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.textBlue{
+	color: #00deff;
+	font-size: 12pt;
+}
+.textWhite{
+	color: #ffffff;
+	font-size: 18pt;
+}
+.black{
+	background: #000;
+}
+.opacity{
+	opacity: 0.6;
+}
