@@ -8,9 +8,6 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 </head>
 <body>
-	<div id="header-bg-main"></div>
-	<div id="header-bg-menu1"></div>
-	<div id="header-bg-menu2"></div>
 	<div id="header">
 		<div class="row black">
 			<div class="column textBlue">
