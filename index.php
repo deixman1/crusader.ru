@@ -17,7 +17,7 @@
 			<div class="row">
 				<div class="column textBlue">
 					<span>для звонков по России</span>
-					<span>+7 963 193 77 38<img src="img/Phone.png" alt=""></span>
+					<span>+7 963 193 77 38 <img src="img/Phone.png" alt=""></span>
 				</div>
 				<div class="row middle">
 					<div><img src="img/VK.png" alt=""><a class="textBlue" href="https://vk.com/crusader_web">vk.com</a></div>
