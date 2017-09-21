@@ -21,6 +21,9 @@
 #bg-header-third{
 	background: url('../img/bg-main.jpg');
 	z-index: -2;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100% 100%;
 }
 #bg-content-first{
 	background: #2d2d2d;
