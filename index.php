@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Crusader</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script type="text/javascript" src="js/script.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css?v=1">
+	<script type="text/javascript" src="js/script.js?v=1" defer></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 </head>
 <body>
